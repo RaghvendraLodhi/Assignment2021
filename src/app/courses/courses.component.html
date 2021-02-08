@@ -1,0 +1,24 @@
+
+<h2>Following are the courses...</h2>
+<div *ngFor="let courses of courses index as i">
+    {{courses.Id}}. {{courses.Name}}  <h3 *ngIf="courses.Name=='MCA'">{{courses.Name}} is 3 years Master Degree</h3>
+    <h3 *ngIf="courses.ShowDetail=='true'">Showing Course Here</h3>
+</div>
+
+<!-- <ng-template #brand let-name>
+    <section class="brand">
+    <img src="https://picsum.photos/{{s}}" alt="image"/>
+    <h3>{{name}}</h3>
+    </section>
+    </ng-template>
+    
+    <header>
+        <ng-container *ngTemplateOutlet="brand; context: { $implicit: 'Raghvendra Singh Lodhi'}"></ng-container>
+        <nav>
+            <ul>
+                <li>About</li>
+                <li>Profile</li>
+                <li>Log Out</li>
+            </ul>
+        </nav>
+    </header> -->

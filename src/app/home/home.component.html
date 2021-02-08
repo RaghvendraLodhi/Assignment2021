@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>welcome {{userName}}</h1>
+    
+    <!-- <button class="btn btn-lg" (click)="coursesClick()">COURSES</button><br/>
+    <button class="btn btn-lg" (click)="libraryClick()">LIBRARY</button><br/>
+    <button class="btn btn-lg" (click)="hostelsClick()">HOSTELS</button><br/>
+    <button class="btn btn-lg" (click)="gamessportsClick()">GAMES & SPORTS</button><br/>
+    <button class="btn btn-lg" (click)="fundTransferClick()">FEES & PAYMENT</button> -->
+<br/>
+<div>
+    <div>
+      <select (change)="selectTheComponent($event.target.value);">
+        <option value="0">--Select--</option>
+        <option [value]="val.Id" *ngFor ="let val of value">{{val.Name}}</option>
+      </select>
+      <template #dynamicLoadComponent></template>
+    </div>
+  </div>
+</div>
