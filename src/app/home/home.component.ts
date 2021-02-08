@@ -5,7 +5,7 @@ import { FeespaymentComponent } from '../feespayment/feespayment.component';
 import { GamessportsComponent } from '../gamessports/gamessports.component';
 import { HostelsComponent } from '../hostels/hostels.component';
 import { UserFace } from '../models/user.model';
-import { SharedService } from '../shared.service';
+import { SharedService } from '../sharedServices/shared.service';
 
 @Component({
   selector: 'app-home',

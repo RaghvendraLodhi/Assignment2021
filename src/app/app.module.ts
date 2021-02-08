@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AuthComponent } from './auth/auth.component';
 import { LandingComponent } from './landing/landing.component';
-import {NavbarComponent} from './navbar.component';
+import {NavbarComponent} from './navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MaterialModule } from './material/material.module';
 import { ActivateGuard } from './activate.guard';

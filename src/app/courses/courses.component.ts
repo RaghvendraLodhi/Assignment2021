@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ColserviceService } from '../colservice.service';
+import { ColserviceService } from '../sharedServices/colservice.service';
 
 @Component({
   selector: 'app-courses',

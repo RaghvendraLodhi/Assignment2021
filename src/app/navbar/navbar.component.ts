@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core'
 import { Router } from '@angular/router';
-import { SharedService } from './shared.service';
+import { SharedService } from '../sharedServices/shared.service';
 @Component({
     selector:'app-navbar',
     templateUrl:'./navbar.component.html',

@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
-import { Product } from '../product';
-import { ProductService } from '../product.service';
-import { SharedService } from '../shared.service';
+import { Product } from '../sharedServices/product';
+import { ProductService } from '../sharedServices/product.service';
+import { SharedService } from '../sharedServices/shared.service';
 
 @Component({
   selector: 'app-landing',
